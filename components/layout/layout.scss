@@ -1,0 +1,85 @@
+// Item Width
+@for $i from 1 through 100 {
+    &-w-#{$i} {
+        width: $i * 1%;
+    }
+}
+
+@for $i from 1 through 100 {
+    &-vw-#{$i} {
+        width: $i * 1vw;
+    }
+}
+
+// Item height
+@for $i from 1 through 100 {
+    &-h-#{$i} {
+        height: $i * 1%;
+    }
+}
+
+@for $i from 1 through 100 {
+    &-vh-#{$i} {
+        height: $i * 1vh;
+    }
+}
+
+// Padding utils REM
+// Top
+@for $i from 1 through 10 {
+    &-PT-#{$i}rem {
+        padding-top: $i * 1rem;
+    }
+}
+// Right
+@for $i from 1 through 10 {
+    &-PR-#{$i}rem {
+        padding-right: $i * 1rem;
+    }
+}
+
+// Bottom
+@for $i from 1 through 10 {
+    &-PB-#{$i}rem {
+        padding-bottom: $i * 1rem;
+    }
+}
+
+// Left
+@for $i from 1 through 10 {
+    &-PL-#{$i}rem {
+        padding-left: $i * 1rem;
+    }
+}
+
+// Margin utils REM
+// Top
+@for $i from 1 through 10 {
+    &-MT-#{$i}rem {
+        margin-top: $i * 1rem;
+    }
+}
+// Right
+@for $i from 1 through 10 {
+    &-MR-#{$i}rem {
+        margin-right: $i * 1rem;
+    }
+}
+
+// Bottom
+@for $i from 1 through 10 {
+    &-MB-#{$i}rem {
+        margin-bottom: $i * 1rem;
+    }
+}
+
+// Left
+@for $i from 1 through 10 {
+    &-ML-#{$i}rem {
+        margin-left: $i * 1rem;
+    }
+}
+
+&-M-auto {
+    margin: auto;
+}
